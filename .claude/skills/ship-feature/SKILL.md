@@ -12,7 +12,9 @@ Run these steps in order. Stop and tell me if any step fails.
 3. **Commit.** Use a clear message that says what the feature does, e.g. "feat: show top 3 cheapest hotels".
 4. **Push to GitHub** (`main`). Vercel deploys from `main` automatically.
 5. **Confirm the deployment.** Check that the Vercel deployment for this commit is live. If it failed, report why.
-6. **Update Notion.** Set the feature's Status to "Built" in the Hotel Finder Features database.
+   - If you can't check Vercel directly, ask me for the live URL. Then open it and confirm the app loads and the search form shows.
+   - If the project isn't on Vercel yet, tell me to import the repo in the Vercel dashboard and add `HASDATA_API_KEY` as an environment variable. Then wait for me to give you the URL.
+6. **Update Notion.** Set the feature's Status to "Built" in the Hotel Finder Features database. Also add the live URL and today's date to the feature's Notion page under a "Shipped" heading.
 
 Finish with a summary report in plain language, in this format:
 
