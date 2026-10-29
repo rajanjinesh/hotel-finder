@@ -23,12 +23,11 @@
 - Code in GitHub; Vercel auto-deploys from `main`
 
 ## How to work
-1. **PRD first.** The PRD is in Notion (Features database, Hotel Finder v1); read it from there.
-2. **Read the PRD back from Notion** before building, and summarize what you'll build so I can confirm.
-3. Build in small steps; test locally with `npm run dev`.
-4. Use mock hotel data for UI work to save HasData credits; switch to the real API at the end.
-5. After each working feature: commit with a clear message and push to GitHub.
-6. When the feature is done and deployed, update its Status in Notion to "Built".
+1. **PRD first.** The PRD is in Notion (Features database, Hotel Finder v1). Read it from there before building, and summarize what you'll build so I can confirm.
+2. Build in small steps; test locally with `npm run dev`.
+3. Use mock hotel data for UI work to save HasData credits; switch to the real API at the end.
+4. After each working feature: commit with a clear message and push to GitHub.
+5. When the feature is done and deployed, update its Status in Notion to "Built".
 
 ## Rules
 - Never commit `.env.local` or print the API key anywhere.
