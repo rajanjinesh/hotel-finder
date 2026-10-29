@@ -23,7 +23,7 @@
 - Code in GitHub; Vercel auto-deploys from `main`
 
 ## How to work
-1. **PRD first.** Create the PRD in Notion from the PRD I give you in my prompt: a "Hotel Finder" page with a Features database (Name, Status, PRD). Set Status to "Not started". Don't start coding in the same step.
+1. **PRD first.** The PRD is in Notion (Features database, Hotel Finder v1); read it from there.
 2. **Read the PRD back from Notion** before building, and summarize what you'll build so I can confirm.
 3. Build in small steps; test locally with `npm run dev`.
 4. Use mock hotel data for UI work to save HasData credits; switch to the real API at the end.
@@ -32,5 +32,6 @@
 
 ## Rules
 - Never commit `.env.local` or print the API key anywhere.
+- Only HASDATA_API_KEY is used in v1. Never print any keys from .env.local.
 - Never call HasData from the browser; only from `/api/hotels`.
 - Stay within v1 scope. Note new ideas under "Future scope" in the PRD instead of building them.
